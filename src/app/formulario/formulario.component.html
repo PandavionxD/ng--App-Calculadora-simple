@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-5 mt-2">
+        <label for="num1" class="form-label">Introduce el Primer numero</label>
+        <input type="number" class="form-control" id="num1" #num2>
+    </div>
+    <div class="col-5 mt-2">
+        <label for="num2" class="form-label">Introduce el Segundo numero</label>
+        <input type="number" class="form-control" id="num2" #num1>
+    </div>
+    <button class="btn btn-primary col-3 mt-3" (click)="sumar(num1,num2)" >Sumar</button>
+</div>
